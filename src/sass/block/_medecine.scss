@@ -1,0 +1,45 @@
+.med {
+    position: relative;
+    padding: 150px 0;
+    height: auto;
+    &_block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        &_sub {
+            padding: 24px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.10);
+            &-descr {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 50%;
+                &-title {
+                    color: #59443F;
+                    font-family: SchoolBook;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px; /* 133.333% */
+                }
+                &-service {
+                    color: #59443F;
+                    font-family: Futura New;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px; /* 100% */
+                }
+            }
+            &-image {
+                padding: 42px 0 0 0;
+            }
+        }
+    }
+}

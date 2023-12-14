@@ -1,0 +1,25 @@
+.history {
+    padding: 180px 0 200px 0;
+    position: relative;
+    background: #FBF8F8;
+    &_title {
+        color: #080606;
+        text-align: center;
+        font-family: SchoolBook;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 100% */
+    }
+    &_subtitle {
+        margin-top: 50px;
+        padding: 0 300px;
+        color: #59443F;
+        text-align: center;
+        font-family: Futura New;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+    }
+}
