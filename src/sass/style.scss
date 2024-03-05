@@ -1,0 +1,33 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--brown-light);
+}
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+:root {
+	--brown: #59443f;
+	--orange: #ffc59e;
+	--text: #080606;
+	--bg: #fffefe;
+	--brown-light: #c3b9b5;
+	--brown-bg: #ede9e8;
+}
+@import 'block/header';
+@import 'block/main';
+@import 'block/medecine';
+@import 'block/history';
+@import 'block/pet';
+@import 'block/choice';
+@import 'block/soon';
+@import 'block/map';
+@import 'block/footer';
+
+@import 'block/name';

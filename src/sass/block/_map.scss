@@ -1,0 +1,36 @@
+.map {
+    padding: 150px 0;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        color: var(--text);
+    }
+    &_wrapper {
+        display: flex;
+        &_item {
+            margin-top: 70px;
+            &_title {
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 30px;
+                color: var(--text);
+            }
+            &_descr {
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                &_text {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--brown);
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.soon {
+    background: var(--orange);
+    padding: 200px 0 280px 0;
+    position: relative;
+    &_text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 30px;
+        color: #fff;
+    }
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 120%;
+        color: #fff;
+    }
+    &_download {
+        margin-top: 15px;
+    }
+    &_dog {
+        position: absolute;
+        top: 320px;
+        right: 180px;
+        z-index: 2;
+    }
+    &_mobile {
+        height: 80%;
+        position: absolute;
+        top: 170px;
+        right: 0px;
+    } 
+}

@@ -1,0 +1,74 @@
+.main {
+    position: relative;
+    height: auto;
+    padding: 200px 0 100px 0;
+    &__descr {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 60%;
+        &-title {
+            color: #080606;
+            font-family: SchoolBook;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 110px;
+        }
+        &-btn {
+            margin-top: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 33.5px;
+            background: #FFC59E;
+            box-shadow: 0px 4px 20px 0px #FFC59E; 
+            color: #fff;
+            font-family: Futura New;
+            font-size: 20px;
+            font-style: normal; 
+            font-weight: 700; 
+            line-height: 20px;  /* 100% */
+            text-decoration: none;
+            width: 40%; 
+            min-height: 65px;
+            z-index: 998;
+            &:hover {
+                color: #fff; 
+                background: #59443F; 
+                box-shadow: 0px 4px 20px 0px #59443F; 
+            }
+        }
+        &_social {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 50px;
+          width: 61%;
+        }
+    }
+    &_pet {
+        position: absolute;
+        padding: 0;
+        right: 0;
+        top: 0;
+        &-image {
+            width: 100%;
+        }
+    }
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-indicators {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position:unset;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  
+}

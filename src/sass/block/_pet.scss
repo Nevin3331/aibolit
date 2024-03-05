@@ -1,0 +1,23 @@
+.pet {
+    padding: 200px 0;
+    position: relative;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 144px;
+        color: var(--brown);
+        text-align: center;
+    }
+    &_subtitle {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 80px;
+        color: var(--text);
+        text-align: center;
+    }
+    &_image {
+        position: absolute;
+        bottom: 45px;
+        right: 180px;
+    }
+}

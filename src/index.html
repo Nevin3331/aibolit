@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aibolit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../dist/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__logo">
+                <a href="http://127.0.0.1:5500/aibolit/src/index.html"><img src="icons/header_logo.png"
+                        alt="main_logo"></a>
+            </div>
+            <div class="header__navbar">
+                <ul class="header__navbar_item">
+                    <li class="list"><a href="http://127.0.0.1:5500/aibolit/src/profile.html" class="sub-link">ЛИЧНЫЙ
+                            КАБИНЕТ</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle sub-link" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">О НАС</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item sub-link" href="#">Услуги и цены</a></li>
+                            <li><a class="dropdown-item sub-link" href="#">Коллектив</a></li>
+                            <li><a class="dropdown-item sub-link" href="#">История компании</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="sub-link">НОВОСТИ И АКЦИИ</a></li>
+                    <li><a href="#" class="sub-link">КОНТАКТЫ</a></li>
+                    <li><a href="#" class="sub-link">БЛОГ</a></li>
+                </ul>
+
+                <div class="header__geo">
+                    <img src="icons/header_location.png" alt="location">
+                    <a class="header__geo_text" href="#">Киев</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="carousel-indicators col-sm-1">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-current="true" aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+                            <div class="main__descr col-sm-5">
+                                <h1 class="main__descr-title">
+                                    Хвостики круглосуточная ветклиника
+                                </h1>
+
+                                <a class="main__descr-btn" href="#">ЗАПИСАТЬСЯ</a>
+
+                                <div class="main__descr_social">
+                                    <a href="#">
+                                        <img src="icons/social/inst.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/fb.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/vk.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main_pet col-sm-6">
+                                <img class="main_pet-image" src="img/pet.png" alt="logo_pet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="carousel-indicators col-sm-1">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    class="active" aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-current="true" aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+                            <div class="main__descr col-sm-5">
+                                <h1 class="main__descr-title">
+                                    Комфортные оборудованные стационары
+                                </h1>
+
+                                <a class="main__descr-btn" href="#">ЗАПИСАТЬСЯ</a>
+
+                                <div class="main__descr_social">
+                                    <a href="#">
+                                        <img src="icons/social/inst.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/fb.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/vk.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main_pet col-sm-6">
+                                <img class="main_pet-image" src="img/kiss.png" alt="logo_pet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="carousel-indicators col-sm-1">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    class="active" aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-current="true" aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+                            <div class="main__descr col-sm-5">
+                                <h1 class="main__descr-title">
+                                    Новейшее европейское оборудование
+                                </h1>
+
+                                <a class="main__descr-btn" href="#">ЗАПИСАТЬСЯ</a>
+
+                                <div class="main__descr_social">
+                                    <a href="#">
+                                        <img src="icons/social/inst.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/fb.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/vk.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main_pet col-sm-6">
+                                <img class="main_pet-image" src="img/look.png" alt="logo_pet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="carousel-indicators col-sm-1">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    class="active" aria-current="true" aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+                            <div class="main__descr col-sm-5">
+                                <h1 class="main__descr-title">
+                                    Собственная современная лаборатория
+                                </h1>
+
+                                <a class="main__descr-btn" href="#">ЗАПИСАТЬСЯ</a>
+
+                                <div class="main__descr_social">
+                                    <a href="#">
+                                        <img src="icons/social/inst.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/fb.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/vk.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main_pet col-sm-6">
+                                <img class="main_pet-image" src="img/rabbit.png" alt="logo_pet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="carousel-indicators col-sm-1">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-current="true" aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    class="active" aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+                            <div class="main__descr col-sm-5">
+                                <h1 class="main__descr-title">
+                                    Аптека и зоомагазин по доступным ценам
+                                </h1>
+
+                                <a class="main__descr-btn" href="#">ЗАПИСАТЬСЯ</a>
+
+                                <div class="main__descr_social">
+                                    <a href="#">
+                                        <img src="icons/social/inst.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/fb.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/vk.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main_pet col-sm-6">
+                                <img class="main_pet-image" src="img/cat.png" alt="logo_pet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="carousel-indicators col-sm-1">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-current="true" aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    class="active" aria-label="Slide 6"></button>
+                            </div>
+                            <div class="main__descr col-sm-5">
+                                <h1 class="main__descr-title">
+                                    Груминг салон и косметические товары
+                                </h1>
+
+                                <a class="main__descr-btn" href="#">ЗАПИСАТЬСЯ</a>
+
+                                <div class="main__descr_social">
+                                    <a href="#">
+                                        <img src="icons/social/inst.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/fb.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/vk.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="icons/social/youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main_pet col-sm-6">
+                                <img class="main_pet-image" src="img/dog.png" alt="logo_pet">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="med">
+        <div class="container">
+            <div class="row">
+                <div class="med_block">
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Терапия</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/surgery.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Хирургия</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/knife.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Неврология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/plate.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Ортопедия</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/bones.png" alt="" class="med_block_sub-image">
+                    </div>
+
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Дерматология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/pet.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Офтальмология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/cat.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Кардиология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/heart.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Стоматология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/canin.png" alt="" class="med_block_sub-image">
+                    </div>
+
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Репродуктология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/pig.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Визуальная диагностика</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/visual.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Лаборатория</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/lab.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Онкология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/shpritz.png" alt="" class="med_block_sub-image">
+                    </div>
+
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Эндокринология</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/endocr.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Экзотические животные</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/lizar.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Аптека</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/pil.png" alt="" class="med_block_sub-image">
+                    </div>
+                    <div class="med_block_sub col-sm-3">
+                        <div class="med_block_sub-descr">
+                            <div class="med_block_sub-descr-title">Груминг</div>
+                            <div class="med_block_sub-descr-service">26 услуг</div>
+                        </div>
+                        <img src="icons/medecine/grooming.png" alt="" class="med_block_sub-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="history">
+        <div class="container">
+            <div class="history_title">
+                История компании
+            </div>
+            <div class="history_subtitle">
+                История компании начинается 14 января 1999 года, когда было образовано ООО «Чижи». Идея пришла, т.к. у
+                основателя компании Прозор Жанны Георгиевны была собака боксёр по кличке Бард…
+            </div>
+            <div class="history_more">
+                <a class="history_read">ЧИТАТЬ ДАЛЕЕ</a>
+                <img src="icons/arrow.svg" alt="arrow">
+            </div>
+            <div class="history_specialists">
+                <div class="history_specialists_title">Наши специалисты</div>
+
+                <div class="customer-logos slider">
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+                    <div class="slide">
+                        <img src="icons/carousel.png">
+                    </div>
+
+                </div>
+
+                <div class="history_specialists_more">
+                    <a class="history_specialists_read">ПОСМОТРЕТЬ ВСЕХ</a>
+                    <img src="icons/arrow.svg" alt="arrow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pet">
+        <div class="container">
+            <div class="pet_title">1 150 000</div>
+            <div class="pet_subtitle">питомцам мы помогли <br> за 18 лет работы</div>
+            <img class="pet_image" src="icons/image_bird.svg" alt="bird">
+        </div>
+    </section>
+
+    <section class="choice">
+        <div class="container">
+            <div class="choice_title">Почему хозяева выбирают нас?</div>
+            <div class="choice_wrapper">
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/combined.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/group.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/health.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/lab.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/home.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/mirco.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/combined.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/pil.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+                <div class="choice_wrapper_item col-sm-3">
+                    <div class="choice_wrapper_item_title">Работаем круглосуточно</div>
+                    <div class="choice_wrapper_item_descr">
+                        <div class="choice_wrapper_item_descr_image">
+                            <img src="icons/shape.svg" alt="#">
+                        </div>
+                        <div class="choice_wrapper_item_descr_text">Мы готовы в любое время суток принять домашних
+                            питомцев и их хозяев</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="soon">
+        <div class="container">
+            <div class="soon_text">скоро</div>
+            <div class="soon_title">Удобное приложение <br> для питомцев и <br> их хозяев</div>
+            <div class="soon_download">
+                <a href="#"><img src="icons/app_story.png" alt="apple"></a>
+                <a href="#"><img src="icons/google_play.png" alt="android"></a>
+            </div>
+
+            <img class="soon_dog" src="icons/dog.png" alt="#">
+
+            <img class="soon_mobile" src="icons/mobile.png" alt="#">
+
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <div class="map_title">Контакты</div>
+            <div class="map_wrapper">
+                <div class="map_left col-sm-5">
+                    <div class="map_wrapper_item">
+                        <div class="map_wrapper_item_title">Айболит на Позняках</div>
+                        <div class="map_wrapper_item_descr">
+                            <div class="map_wrapper_item_descr_image">
+                                <img src="icons/location.svg" alt="#">
+                            </div>
+                            <div class="map_wrapper_item_descr_text">Дарницкий район</div>
+                        </div>
+                        <div class="map_wrapper_item_descr">
+                            <div class="map_wrapper_item_descr_image">
+                                <img src="icons/phone.svg" alt="#">
+                            </div>
+                            <a href="#">
+                                <div class="map_wrapper_item_descr_text">+380 (66) 313 44 20</div>
+                            </a>
+                        </div>
+                        <div class="map_wrapper_item_descr">
+                            <div class="map_wrapper_item_descr_image">
+                                <img src="icons/clock.svg" alt="#">
+                            </div>
+                            <div class="map_wrapper_item_descr_text">Круглосуточно</div>
+                        </div>
+                    </div>
+                    <div class="map_wrapper_item">
+                        <div class="map_wrapper_item_title">Айболит на Почтовой</div>
+                        <div class="map_wrapper_item_descr">
+                            <div class="map_wrapper_item_descr_image">
+                                <img src="icons/location.svg" alt="#">
+                            </div>
+                            <div class="map_wrapper_item_descr_text">Подольський район</div>
+                        </div>
+                        <div class="map_wrapper_item_descr">
+                            <div class="map_wrapper_item_descr_image">
+                                <img src="icons/phone.svg" alt="#">
+                            </div>
+                            <a href="#">
+                                <div class="map_wrapper_item_descr_text">+380 (66) 313 44 20</div>
+                            </a>
+                        </div>
+                        <div class="map_wrapper_item_descr">
+                            <div class="map_wrapper_item_descr_image">
+                                <img src="icons/clock.svg" alt="#">
+                            </div>
+                            <div class="map_wrapper_item_descr_text">Круглосуточно</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map_location col-sm-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1389.7139792537944!2d30.52151859597193!3d50.46104963458599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1709560243678!5m2!1sru!2sus"
+                        width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__nav">
+                <div class="footer_logo">
+                    <img src="icons/footer_logo.png" alt="#">
+                    <div class="footer_logo_text">
+                        <div class="footer_logo_text_title">Айболит</div>
+                        <div class="footer_logo_text_subtitle">ветеринарная клиника</div>
+                    </div>
+                </div>
+
+                <div class="footer_download">
+                    <a href="#"><img src="icons/app_story.png" alt="apple"></a>
+                    <a href="#"><img src="icons/google_play.png" alt="android"></a>
+                </div>
+            </div>
+
+            <div class="footer_second">
+                <div class="footer_wrapper_list">
+                    <ul class="footer_second_list">
+                        <li class="footer_second_list_text">Политика конфиденциальности в отношении обработки
+                            персональных
+                            данных
+                        </li>
+                    </ul>
+                    <ul class="footer_second_list">
+                        <a href="#">
+                            <li class="footer_second_list_text">Главная</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Услуги и цены</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">История компании</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Наши специалисты</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Вакансии</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Реквизиты</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Онлайн-оплата</li>
+                        </a>
+                    </ul>
+                    <ul class="footer_second_list">
+                        <a href="#">
+                            <li class="footer_second_list_text">Отзывы</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Контакты</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Груминг-салон</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Косметика</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Новости и акции</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer_second_list_text">Блог</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer_wrapper_sociale">
+                    <div class="footer_wrapper_sociale_image">
+                        <img src="icons/inst.svg" alt="#">
+                        <img src="icons/fb.svg" alt="#">
+                        <img src="icons/youtube.svg" alt="#">
+                    </div>
+                    <div class="footer_wrapper_sociale_mail">
+                        <a href="#">aibolit34.ru</a> <br>
+                        <a href="#">aibolit34@gmail.com</a>
+                    </div>
+                    <div class="footer_wrapper_sociale_copy">
+                        Made with from UnitBean
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>

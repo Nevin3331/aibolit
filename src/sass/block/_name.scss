@@ -1,0 +1,188 @@
+.top {
+    padding-bottom: 100px;
+}
+.name {
+    padding: 200px 0;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 137%;
+        color: var(--text);
+    }
+    &_nav {
+        margin: 0;
+        list-style-type: none;
+        &_list {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: var(--brown-light);
+            margin-top: 30px;
+            :hover {
+                color: #000;
+            }
+        }
+    }
+}
+.data {
+    padding: 230px 0 0 0;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 133%;
+        color: var(--text);
+    }
+    &_block {
+        padding: 30px;
+        border: 1px solid var(--brown-bg);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;
+        &_image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background: var(--brown-bg);
+            width: 100px;
+            height: 100px;
+        }
+        &_change {
+            margin-top: 30px;
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--orange);
+        }
+        &_middle {
+            width: 100%;
+            &_item {
+                margin-bottom: 10px;
+                :last-child {
+                    margin-bottom: 0;
+                }
+                &_title {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--brown-light);
+                }
+                &_subtitle {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--text);
+                }
+            }
+        }
+        &_right {
+            &_title {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 15px;
+                color: var(--brown-light);
+            }
+            &_subtitle {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 15px;
+                color: var(--text);
+            }
+        }
+    }
+    &_add {
+        margin-top: 50px;
+        &_title {
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 30px;
+            color: #000;
+        }
+        &_new {
+            display: flex;
+            align-items: center;
+            box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.1);
+            background: var(--orange);
+            border-radius: 20px;
+            padding: 20px;
+            &_text {
+                margin: 0;
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+    }
+    &_document {
+        margin-top: 50px;
+        padding: 40px;
+        border: 1px solid var(--brown-bg);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;
+
+        &_image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background: var(--brown-bg);
+            width: 100px;
+            height: 100px;
+        }
+        &_change {
+            margin-top: 30px;
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--orange);
+        }
+        &_middle {
+            width: 100%;
+            &_title {
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 30px;
+                color: var(--text);
+            }
+            &_item {
+                margin-bottom: 10px;
+                :last-child {
+                    margin-bottom: 0;
+                }
+                &_title {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--brown-light);
+                }
+                &_subtitle {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--text);
+                }
+            }
+        }
+        &_right {
+            &_title {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 15px;
+                color: var(--brown-light);
+            }
+            &_subtitle {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 15px;
+                color: var(--text);
+            }
+        }
+    }
+}
