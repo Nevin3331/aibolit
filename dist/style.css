@@ -929,3 +929,54 @@ header .header__navbar .header__geo_text {
   font-size: 15px;
   color: var(--text);
 }
+
+.news {
+  padding: 200px 0;
+}
+.news_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 137%;
+  color: var(--text);
+}
+.news_right_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.news_right_item_text {
+  padding: 10px;
+}
+.news_right_item_text_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--text);
+}
+.news_right_item_text_date {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--brown-light);
+}
+.news_right_item_text_descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--brown);
+}
+
+.w-buttons {
+  position: absolute;
+  top: 130px;
+  right: 50px;
+}
+
+.carousel-item {
+  padding: 0.5rem 1rem;
+  width: 100%;
+}

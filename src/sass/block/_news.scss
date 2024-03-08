@@ -1,0 +1,46 @@
+.news {
+    padding: 200px 0;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 137%;
+        color: var(--text);
+    }
+    &_right {
+        &_item {
+            display: flex;
+            align-items: center;
+            &_text {
+                padding: 10px;
+                &_title {
+                    font-family: var(--second-family);
+                    font-weight: 400;
+                    font-size: 30px;                    
+                    color: var(--text);
+                }
+                &_date {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--brown-light);
+                }
+                &_descr {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--brown);
+                }
+            }
+        }
+    }
+}
+.w-buttons {
+    position: absolute;
+    top: 130px;
+    right: 50px;
+}
+.carousel-item {
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
