@@ -34,6 +34,7 @@
     &_wrapper {
         &_list {
             display: flex;
+            gap: 60px;
         }
         &_sociale {
             &_image {
@@ -67,6 +68,7 @@
             list-style-type: none;
             width: 20%;
             &_text {
+                margin-top: 10px;
                 color: #fff;
             }
         }
